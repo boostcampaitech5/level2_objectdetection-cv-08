@@ -1,1 +1,0 @@
-{"val/loss_rpn_cls": 0.04251614389355534, "val/loss_rpn_bbox": 0.04142407432873315, "val/loss_cls": 0.2799137037046655, "val/acc": 92.32550523952096, "val/loss_bbox": 0.21129057864229123, "val/loss": 0.575144499897243, "learning_rate": 0.02, "momentum": 0.9, "_timestamp": 1683565183.123245, "_runtime": 2054.6476759910583, "_step": 4013}
