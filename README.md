@@ -3,50 +3,50 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-- [ºÎ½ºÆ®Ä·ÇÁ AI Tech](https://boostcamp.connect.or.kr/program_ai.html) - Level1. Mask Classification Competition  
+- [ë¶€ìŠ¤íŠ¸ìº í”„ AI Tech](https://boostcamp.connect.or.kr/program_ai.html) - Level2. Object Detection Competition  
 
 # Introduction
 <img src="./image/47_metal.PNG" width="600" height="500"/>
 
-ÀÌ¹ÌÁö¿¡¼­ ¾²·¹±â¸¦ DetectionÇÏ´Â ÇÁ·ÎÁ§Æ®·Î ÃÑ 10°¡Áö Á¾·ù ¾²·¹±â¸¦ ±¸ºĞÇÏ°í, µ¿½Ã¿¡ ¾²·¹±âÀÇ À§Ä¡¸¦ DetectionÇÏ´Â ÇÁ·ÎÁ§Æ®ÀÌ´Ù. Àß ºĞ¸®¹èÃâ µÈ ¾²·¹±â´Â ÀÚ¿øÀ¸·Î¼­ °¡Ä¡¸¦ ÀÎÁ¤¹Ş¾Æ ÀçÈ°¿ëµÇÁö¸¸, Àß¸ø ºĞ¸®¹èÃâ µÇ¸é ±×´ë·Î Æó±â¹°·Î ºĞ·ùµÇ¾î ¸Å¸³ ¶Ç´Â ¼Ò°¢µÇ±â ¶§¹®¿¡ ºĞ¸®¼ö°Å´Â È¯°æ ºÎ´ãÀ» ÁÙÀÏ ¼ö ÀÖ´Â ¹æ¹ı Áß ÇÏ³ªÀÌ´Ù.
+ì´ë¯¸ì§€ì—ì„œ ì“°ë ˆê¸°ë¥¼ Detectioní•˜ëŠ” í”„ë¡œì íŠ¸ë¡œ ì´ 10ê°€ì§€ ì¢…ë¥˜ ì“°ë ˆê¸°ë¥¼ êµ¬ë¶„í•˜ê³ , ë™ì‹œì— ì“°ë ˆê¸°ì˜ ìœ„ì¹˜ë¥¼ Detectioní•˜ëŠ” í”„ë¡œì íŠ¸ì´ë‹¤. ì˜ ë¶„ë¦¬ë°°ì¶œ ëœ ì“°ë ˆê¸°ëŠ” ìì›ìœ¼ë¡œì„œ ê°€ì¹˜ë¥¼ ì¸ì •ë°›ì•„ ì¬í™œìš©ë˜ì§€ë§Œ, ì˜ëª» ë¶„ë¦¬ë°°ì¶œ ë˜ë©´ ê·¸ëŒ€ë¡œ íê¸°ë¬¼ë¡œ ë¶„ë¥˜ë˜ì–´ ë§¤ë¦½ ë˜ëŠ” ì†Œê°ë˜ê¸° ë•Œë¬¸ì— ë¶„ë¦¬ìˆ˜ê±°ëŠ” í™˜ê²½ ë¶€ë‹´ì„ ì¤„ì¼ ìˆ˜ ìˆëŠ” ë°©ë²• ì¤‘ í•˜ë‚˜ì´ë‹¤.
 
-µû¶ó¼­ ¿ì¸®´Â »çÁø¿¡¼­ ¾²·¹±â¸¦ Detection ÇÏ´Â ¸ğµ¨À» ¸¸µé¾î ÀÌ·¯ÇÑ ¹®Á¦Á¡À» ÇØ°áÇØº¸°íÀÚ ÇÏ°í, ÀÌ ÇÁ·ÎÁ§Æ®¸¦ ÅëÇØ ¿©·¯°¡Áö object detection°ú °ü·ÃµÈ tool°ú model¿¡ ´ëÇÑ ÀÌÇØ¸¦ ³ĞÀÌ°íÀÚ ÇÏ¿´´Ù.
+ë”°ë¼ì„œ ìš°ë¦¬ëŠ” ì‚¬ì§„ì—ì„œ ì“°ë ˆê¸°ë¥¼ Detection í•˜ëŠ” ëª¨ë¸ì„ ë§Œë“¤ì–´ ì´ëŸ¬í•œ ë¬¸ì œì ì„ í•´ê²°í•´ë³´ê³ ì í•˜ê³ , ì´ í”„ë¡œì íŠ¸ë¥¼ í†µí•´ ì—¬ëŸ¬ê°€ì§€ object detectionê³¼ ê´€ë ¨ëœ toolê³¼ modelì— ëŒ€í•œ ì´í•´ë¥¼ ë„“ì´ê³ ì í•˜ì˜€ë‹¤.
 
 
 <br />
 
-# ÇÁ·ÎÁ§Æ® ÆÀ ±¸¼º ¹× ¿ªÇÒ
+# í”„ë¡œì íŠ¸ íŒ€ êµ¬ì„± ë° ì—­í• 
 
-|ÀÌ¸§|¿ªÇÒ|
+|ì´ë¦„|ì—­í• |
 |:---:|:---:|
-|°­³ªÈÆ|EDA, Data re-labeling and cleaning, Loss, Neck ½ÇÇè, Test time Threshold ½ÇÇè
-|±è±Ù¿í|Ensemble code, Learning Rate, Augmentation, Multi Scale, FPN, TTA|
-|±èÈñ»ó|Pytorch template ºĞ¼®, ¿©·¯°¡Áö ¸ğµ¨ ÄÚµå ºĞ¼®, Sample code migration|
-|ÀÌÁ¾¸ñ|Data augmentation(HueSaturation, CLAHE, emboss µî), Focal Loss, Pseudo Labeling, Multiscale Training|
-|Á¤¼ºÇı|Data augmentation (Mosaic, Mixup), Fine-tuning with augmented data|
-|°øÅë|Model research, Wrap Up report ÀÛ¼º, °ËÁõ¿ë µ¥ÀÌÅÍ ±¸¼º, backbone ½ÇÇè, Ensemble ½ÇÇè|
+|ê°•ë‚˜í›ˆ|EDA, Data re-labeling and cleaning, Loss, Neck ì‹¤í—˜, Test time Threshold ì‹¤í—˜
+|ê¹€ê·¼ìš±|Ensemble code, Learning Rate, Augmentation, Multi Scale, FPN, TTA|
+|ê¹€í¬ìƒ|Pytorch template ë¶„ì„, ì—¬ëŸ¬ê°€ì§€ ëª¨ë¸ ì½”ë“œ ë¶„ì„, Sample code migration|
+|ì´ì¢…ëª©|Data augmentation(HueSaturation, CLAHE, emboss ë“±), Focal Loss, Pseudo Labeling, Multiscale Training|
+|ì •ì„±í˜œ|Data augmentation (Mosaic, Mixup), Fine-tuning with augmented data|
+|ê³µí†µ|Model research, Wrap Up report ì‘ì„±, ê²€ì¦ìš© ë°ì´í„° êµ¬ì„±, backbone ì‹¤í—˜, Ensemble ì‹¤í—˜|
 
 
 <br />
 
-# ÇÁ·ÎÁ§Æ® ¼öÇà ÀıÂ÷
-1. ÇÁ·ÎÁ§Æ® °³¹ßÈ¯°æ ±¸Ãà(Github, VSCode, MMDetection, PyTorch)
-2. EDA¸¦ ÅëÇÑ µ¥ÀÌÅÍ ÆÄ¾Ç ¹× Åë°èÄ¡ °è»ê 
-3. StratifiedGroupKFold¸¦ ÀÌ¿ëÇÑ CV strategy °áÁ¤
-4. MMDetection¿ë baseline ¸ğµ¨ ½ÇÇè
-5. baseline ¸ğµ¨¿¡¼­ ³ôÀº ¼º´ÉÀ» ³»´Â backbone ½ÇÇè
-6. neck ½ÇÇè
-7. EDA °á°ú¸¦ ÀÌ¿ëÇÑ Data cleaning 
-8. ÇĞ½Àµ¥ÀÌÅÍ re-labeling
-9. Data augmentation¹× TTA ½ÇÇè
-10. Loss, hyperparameter Á¶Á¤
+# í”„ë¡œì íŠ¸ ìˆ˜í–‰ ì ˆì°¨
+1. í”„ë¡œì íŠ¸ ê°œë°œí™˜ê²½ êµ¬ì¶•(Github, VSCode, MMDetection, PyTorch)
+2. EDAë¥¼ í†µí•œ ë°ì´í„° íŒŒì•… ë° í†µê³„ì¹˜ ê³„ì‚° 
+3. StratifiedGroupKFoldë¥¼ ì´ìš©í•œ CV strategy ê²°ì •
+4. MMDetectionìš© baseline ëª¨ë¸ ì‹¤í—˜
+5. baseline ëª¨ë¸ì—ì„œ ë†’ì€ ì„±ëŠ¥ì„ ë‚´ëŠ” backbone ì‹¤í—˜
+6. neck ì‹¤í—˜
+7. EDA ê²°ê³¼ë¥¼ ì´ìš©í•œ Data cleaning 
+8. í•™ìŠµë°ì´í„° re-labeling
+9. Data augmentationë° TTA ì‹¤í—˜
+10. Loss, hyperparameter ì¡°ì •
 11. WBF Ensemble
 
 <br />
 
-# ÇÁ·ÎÁ§½º ¼öÇà °á°ú
+# í”„ë¡œì ìŠ¤ ìˆ˜í–‰ ê²°ê³¼
 
-Public/Private Å×½ºÆ®¼Â¿¡ ´ëÇÑ mAP50·Î Æò°¡ÇÏ¿´´Ù. Public mAP50´Â 0.6948, private mAP50´Â 0.6827·Î ÃÖÁ¾ ¸®´õº¸µå¿¡¼­ 19ÆÀ Áß 4À§·Î ÇÁ·ÎÁ§Æ®¸¦ ¸¶¹«¸®ÇÏ¿´´Ù
+Public/Private í…ŒìŠ¤íŠ¸ì…‹ì— ëŒ€í•œ mAP50ë¡œ í‰ê°€í•˜ì˜€ë‹¤. Public mAP50ëŠ” 0.6948, private mAP50ëŠ” 0.6827ë¡œ ìµœì¢… ë¦¬ë”ë³´ë“œì—ì„œ 19íŒ€ ì¤‘ 4ìœ„ë¡œ í”„ë¡œì íŠ¸ë¥¼ ë§ˆë¬´ë¦¬í•˜ì˜€ë‹¤
 
 - public score
 
@@ -76,13 +76,13 @@ Public/Private Å×½ºÆ®¼Â¿¡ ´ëÇÑ mAP50·Î Æò°¡ÇÏ¿´´Ù. Public mAP50´Â 0.6948, privat
 <br />
 
 ----
-## Çù¾÷ ±ÔÄ¢
+## í˜‘ì—… ê·œì¹™
 
-- Ä¿¹Ô ¸Ş½ÃÁö ÄÁº¥¼ÇÀº [conventional commit](https://www.conventionalcommits.org/en/v1.0.0/)À» µû¸¨´Ï´Ù 
-  - [commitizen](https://github.com/commitizen-tools/commitizen)À» »ç¿ëÇÏ¸é ´õ¿í ½±°Ô Ä¿¹ÔÇÒ ¼ö ÀÖ½À´Ï´Ù
-- ÀÛ¾÷Àº ±âº»ÀûÀ¸·Î º°µµÀÇ ºê·£Ä¡¸¦ »ı¼ºÇÏ¿© ÀÛ¾÷ÇÕ´Ï´Ù. ÀÛ¾÷ÀÌ ¿Ï·áµÇ¸é PR·Î ¸®ºä ¹Ş½À´Ï´Ù
-- PR ¸®ºä ÈÄ ¸ÓÁö ¹æ½ÄÀº Squash & Merge¸¦ µû¸¨´Ï´Ù
-  - Merge Àü¿¡ PR Á¦¸ñÀ» µÇµµ·ÏÀÌ¸é convetional commit ÇüÅÂ·Î ¸¸µé¾îÁÖ¼¼¿ä
+- ì»¤ë°‹ ë©”ì‹œì§€ ì»¨ë²¤ì…˜ì€ [conventional commit](https://www.conventionalcommits.org/en/v1.0.0/)ì„ ë”°ë¦…ë‹ˆë‹¤ 
+  - [commitizen](https://github.com/commitizen-tools/commitizen)ì„ ì‚¬ìš©í•˜ë©´ ë”ìš± ì‰½ê²Œ ì»¤ë°‹í•  ìˆ˜ ìˆìŠµë‹ˆë‹¤
+- ì‘ì—…ì€ ê¸°ë³¸ì ìœ¼ë¡œ ë³„ë„ì˜ ë¸Œëœì¹˜ë¥¼ ìƒì„±í•˜ì—¬ ì‘ì—…í•©ë‹ˆë‹¤. ì‘ì—…ì´ ì™„ë£Œë˜ë©´ PRë¡œ ë¦¬ë·° ë°›ìŠµë‹ˆë‹¤
+- PR ë¦¬ë·° í›„ ë¨¸ì§€ ë°©ì‹ì€ Squash & Mergeë¥¼ ë”°ë¦…ë‹ˆë‹¤
+  - Merge ì „ì— PR ì œëª©ì„ ë˜ë„ë¡ì´ë©´ convetional commit í˜•íƒœë¡œ ë§Œë“¤ì–´ì£¼ì„¸ìš”
 
 
 
@@ -97,11 +97,11 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/ejrtks1020"><img src="https://github.com/ejrtks1020.png" width="100px;" alt=""/><br /><sub><b>°­³ªÈÆ</b></sub></a><br /><a href="https://github.com/ejrtks1020" title="Code"></td>
-    <td align="center"><a href="https://github.com/lijm1358"><img src="https://github.com/lijm1358.png" width="100px;" alt=""/><br /><sub><b>ÀÌÁ¾¸ñ</b></sub></a><br /><a href="https://github.com/lijm1358" title="Code"></td>
-    <td align="center"><a href="https://github.com/fneaplle"><img src="https://github.com/fneaplle.png" width="100px;" alt=""/><br /><sub><b>±èÈñ»ó</b></sub></a><br /><a href="https://github.com/fneaplle" title="Code"></td>
-    <td align="center"><a href="https://github.com/KimGeunUk"><img src="https://github.com/KimGeunUk.png" width="100px;" alt=""/><br /><sub><b>±è±Ù¿í</b></sub></a><br /><a href="https://github.com/KimGeunUk" title="Code"></td>
-    <td align="center"><a href="https://github.com/jshye"><img src="https://github.com/jshye.png" width="100px;" alt=""/><br /><sub><b>Á¤¼ºÇı</b></sub></a><br /><a href="https://github.com/jshye" title="Code"></td>    
+    <td align="center"><a href="https://github.com/ejrtks1020"><img src="https://github.com/ejrtks1020.png" width="100px;" alt=""/><br /><sub><b>ê°•ë‚˜í›ˆ</b></sub></a><br /><a href="https://github.com/ejrtks1020" title="Code"></td>
+    <td align="center"><a href="https://github.com/lijm1358"><img src="https://github.com/lijm1358.png" width="100px;" alt=""/><br /><sub><b>ì´ì¢…ëª©</b></sub></a><br /><a href="https://github.com/lijm1358" title="Code"></td>
+    <td align="center"><a href="https://github.com/fneaplle"><img src="https://github.com/fneaplle.png" width="100px;" alt=""/><br /><sub><b>ê¹€í¬ìƒ</b></sub></a><br /><a href="https://github.com/fneaplle" title="Code"></td>
+    <td align="center"><a href="https://github.com/KimGeunUk"><img src="https://github.com/KimGeunUk.png" width="100px;" alt=""/><br /><sub><b>ê¹€ê·¼ìš±</b></sub></a><br /><a href="https://github.com/KimGeunUk" title="Code"></td>
+    <td align="center"><a href="https://github.com/jshye"><img src="https://github.com/jshye.png" width="100px;" alt=""/><br /><sub><b>ì •ì„±í˜œ</b></sub></a><br /><a href="https://github.com/jshye" title="Code"></td>    
   </tr>
 </table>
 
