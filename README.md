@@ -1,4 +1,4 @@
-# Boostcamp-AI-Tech-Level1-BE1
+# Boostcamp-AI-Tech-Level2-HiBoostCamp
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
